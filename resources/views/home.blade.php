@@ -18,7 +18,16 @@
 <body>
    @include('partials.header')
     <main class="bg-light">
-       dc comics
+       <div class="container">
+            <!-- <div class="row">
+                @foreach($comics as $comic)
+                    <div class="col-12">
+                        {{dump($comic)}}
+                    </div>
+                @endforeach -->
+
+            </div>
+       </div>
     </main>
 
 </body>

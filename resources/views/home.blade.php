@@ -19,12 +19,21 @@
    @include('partials.header')
     <main class="bg-light">
        <div class="container">
-            <!-- <div class="row">
+            <div class="row">
                 @foreach($comics as $comic)
-                    <div class="col-12">
-                        {{dump($comic)}}
+                    <div class="col-12 col-lg-2">
+                        <div class="series">
+                            <a href="#" >
+                                <div class="thumb">
+                                    <img src="https://picsum.photos/id/237/200/300" alt="">
+                                </div>
+                                <p class="text-uppercase">
+                                    {{$comic['series']}}
+                                </p>
+                            </a>                      
+                        </div>                       
                     </div>
-                @endforeach -->
+                @endforeach
 
             </div>
        </div>
